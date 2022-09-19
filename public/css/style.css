@@ -22,7 +22,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 5;
 }
 
 .navbar ion-icon, .navbar img {
@@ -84,7 +84,7 @@ body {
 
 .main {
   width: 100%;
-  max-width: 614px;
+  max-width: 615px;
 }
 
 .sidebar {
@@ -95,11 +95,14 @@ body {
   display: flex;
   align-items: center;
   height: 118px;
+  max-width: 615px;
   border-radius: 3px;
   border: 1px solid #DBDBDB;
   padding: 0 18px;
   overflow: hidden;
   position: relative;
+  margin-right: 27px;
+  background-color: #ffffff;
 }
 
 .circle {
@@ -165,9 +168,11 @@ body {
   top: 45px;
   height: 32px;
   width: 32px;
-  color: #FFF;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
+  z-index: 2;
+  filter:drop-shadow(0 0 7px gray);
 }
 
 .post {
@@ -176,6 +181,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 18px;
+  max-width: 615px;
+  background-color: #ffffff;
 }
 
 .post .topo {
@@ -201,9 +208,12 @@ body {
   cursor: pointer;
 }
 
-.post .conteudo img {
-  max-width: 716px;
+.post .conteudo img,
+.post .conteudo video  {
+  max-width: 615px;
   width: 100%;
+  height: auto;
+  min-height: 1px;
 }
 
 .post .fundo .acoes {

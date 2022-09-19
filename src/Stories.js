@@ -26,6 +26,9 @@ export default function Stories() {
     return (
         <ul class="stories">
             {stories.map((s) => <Story nome={s.nome} imagem={s.imagem}/>)}
+            <div class="setinha">
+                <ion-icon name="chevron-forward-circle"></ion-icon>
+          </div>
         </ul>
     )
 }

@@ -4,8 +4,7 @@ import Links from './Links';
 
 export default function SideBar() {
     return (
-        <div>
-            <h1>Sidebar</h1>
+        <div class="sidebar">
             <Usuario/>
             <Sugestoes/>
             <Links/>
