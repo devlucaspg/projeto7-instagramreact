@@ -4,11 +4,11 @@ function Post(props) {
 
     const [like, setLike] = React.useState(false);
 
-    const clickLike = event => {setLike(current => !current)};
+    const clickLike = () => {setLike(current => !current)};
 
     const [save, setSave] = React.useState(false);
 
-    const clickSave = event => {setSave(current => !current)};
+    const clickSave = () => {setSave(current => !current)};
     
     function Video() {
         return (

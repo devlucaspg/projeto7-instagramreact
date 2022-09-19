@@ -11,7 +11,6 @@ function Story(props) {
     )
 }
 
-
 export default function Stories() {
     const stories = [
         {nome: "9gag", imagem: "./media/9gag.svg"},
@@ -21,7 +20,8 @@ export default function Stories() {
         {nome: "wawawicomics", imagem: "./media/wawawicomics.svg"},
         {nome: "respondeai", imagem: "./media/respondeai.svg"},
         {nome: "filomoderna", imagem: "./media/filomoderna.svg"},
-        {nome: "memeriagourmet", imagem: "./media/memeriagourmet.svg"}
+        {nome: "memeriagourmet", imagem: "./media/memeriagourmet.svg"},
+        {nome: "nathyohana1", imagem: "./media/nathy.png"}
     ]
     return (
         <ul class="stories">
