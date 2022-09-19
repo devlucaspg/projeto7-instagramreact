@@ -7,7 +7,7 @@ export default function Links() {
             </div>
 
             <div class="copyright">
-                © 2021 INSTAGRAM DO FACEBOOK
+                © 2022 INSTAGRAM DO META
             </div>
         </div>
     )
